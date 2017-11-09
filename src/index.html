@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap site</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="app.css">
+    </head>
+    <body>
+         <div class="top-block">
+      <div class="container">
+        <header>
+              <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Protectly</a>
+                  </div>
+                  <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                      <li><a href="#" title="link">Product</a></li>
+                      <li><a href="#" title="link">Industries</a></li>
+                      <li><a href="#" title="link">Pricing</a></li>
+                      <li><a href="#" title="link">Features</a></li>
+                    </ul>
+                    <span class="navbar-text navbar-right"> <a href="#" >+1 (888) 675-4998</a></span>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <div class="row">
+          <div class="col-md-5 col-sm-10">
+            <h1>Protect Your sensitive files across cloud services.</h1>
+            <div class="buttons">
+              <button type="button" class="button-left btn btn-default col-md-4 col-sm-5 ">Try it out for free!</button>
+              <button type="button" class="button-right btn btn-default col-md-4 col-sm-5"><div class="watch">Watch the video</div></button>
+            </div>
+          </div>
+          <div class="laptop col-md-7 hidden-xs hidden-sm">
+          </div>
+        </div>
+        
+      </div>
+    </div> 
+    <div class="main ">
+      <div class="container">
+        <div class="logos col-xs-12">
+          <div class="logo-pinterest col-md-2 col-xs-6" onclick="goSlide(1)"><div class="img-1"></div></div>
+          <div class="logo-99designs col-md-2 col-xs-6" onclick="goSlide(2)"><div class="img-2"></div></div>
+          <div class="logo-discuss col-md-2 col-xs-6" onclick="goSlide(3)"><div class="img-3"></div></div>
+          <div class="logo-freshbooks col-md-2 col-xs-6" onclick="goSlide(4)"><div class="img-4"></div></div>
+          <div class="logo-newrelic col-md-2 col-xs-6" onclick="goSlide(5)"><div class="img-5"></div></div>
+          <div class="logo-klout col-md-2  col-xs-6" onclick="goSlide(6)"><div class="img-6"></div></div>
+        </div>
+             <ul class="reviews">
+                    <li>
+                        <span>Nullam neque elit, sagittis eu</span>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.But the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <i>Alice Anderson, <a href="http://pinterest.com<" target="_blank">pinterest.com</a></i>
+                    </li>
+                    <li>
+                        <span>Lorem ipsum set Amet Dolor</span>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.But the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <i>Alice Anderson, <a href="http://99designs.com" target="_blank">99designs.com</a></i>
+                    </li>
+                    <li>
+                        <span>Neque porro quisquam est qui</span>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.But the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <i>Alice Anderson, <a href="http://disqus.com<" target="_blank">disqus.com</a></i>
+                    </li>
+                    <li>
+                        <span>Orci varius natoque nullam</span>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.But the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <i>Alice Anderson, <a href="http://freshbooks.com" target="_blank">freshbooks.com</a></i>
+                    </li>
+                    <li>
+                        <span>Nulla laoreet vel mi metus</span>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.But the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <i>Alice Anderson, <a href="http://newrelic.com" target="_blank">newrelic.com</a></i>
+                    </li>
+                    <li>
+                        <span>Donec egestas orci aliquam</span>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.But the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <i>Alice Anderson, <a href="http://klout.com" target="_blank">klout.com</a></i>
+                    </li>
+              </ul>
+            <hr>
+        <h3>Protectly protects your sensitive files.</h3>
+        <div class="text col-sm-12">We protect your sensitive files across the popular cloud services and devices, by encripting them, controlling access to them, and providing an audit trail for all changes to your files.</div>
+        <div class="items ">
+            <div class="item col-md-4"><div class="img-sharing"></div>Complaint file Sharing</div>
+            
+            <div class="item item-security col-md-4"><div class="arrow hidden-xs hidden-sm"></div><div class="arrow-right hidden-xs hidden-sm "></div><div class="img-security"></div>Endpoint Security</div>
+            <div class="item col-md-4"><div class="img-control"></div>Access control</div>
+        </div>
+      </div> 
+    </div> 
+    <div class="last">
+    <div class="footer">
+      <div class="container">
+        <div class="left col-md-9 col-xs-12" >
+                <div class="menu-protectly col-md-3 col-xs-4">Protectly
+                    <ul class="list">
+                        <li><a>Getting Started</a></li>
+                        <li><a>Enterprise Features</a></li>
+                        <li><a>Why Us?</a></li>
+                        <li><a>Solution</a></li>
+                        <li><a>Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="menu-about col-md-3 col-xs-4">About us
+                    <ul class="list">
+                        <li><a>Our Story</a></li>
+                        <li><a>Our Leadership</a></li>
+                        <li><a>Our Investors</a></li>
+                        <li><a>Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="menu-support col-md-3 col-xs-4">Support
+                    <ul class="list">
+                            <li><a>Help</a></li>
+                            <li><a>Privacy Policy</a></li>
+                            <li><a>Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>    
+            <div class="right col-md-3 col-xs-12">
+                <div class="contacts">
+                    <div class="socials">
+                        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+                        <a class="twitter-share-button" href="https://twitter.com/intent/tweet" data-url="https://dev.twitter.com/web/tweet-button">Tweet</a>
+                    </div>
+                    <div class="contact-call"><a>+1 (888) 675-4998</a></div>
+                    <div class="contact-mail"><a>info@mail.com</a></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>  
+    <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
